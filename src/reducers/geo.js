@@ -1,5 +1,4 @@
 import * as types from '../constants';
-import { Actions } from '../../node_modules/harmoware-vis';
 
 const initialState = {
   geo: null
