@@ -63,7 +63,8 @@ class App extends Container {
         <div id="controller_area">
           <ul>
             <li>
-              <span>Geoデータ</span>
+              <h3>Geoデータ</h3>
+              <p><a target="_blank" href="https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/geojson/vancouver-blocks.json">https://raw.githubusercontent.com/uber-common/deck.gl-data/master/examples/geojson/vancouver-blocks.json</a><br />を読み込んでみてください。</p>
               <GeoLayerInput actions={actions} />
             </li>
           </ul>
