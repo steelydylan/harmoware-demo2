@@ -107,10 +107,4 @@ class App extends Container {
     );
   }
 }
-export default connectToHarmowareVis(App, actions, (state) => {
-  let prop = {};
-  Object.keys(state).forEach((key) => {
-    prop = Object.assign({}, prop, { ...state[key] });
-  });
-  return prop;
-});
+export default connectToHarmowareVis(App, actions);
